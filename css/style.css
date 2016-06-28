@@ -1,0 +1,124 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: AF6000;
+    color: #000000;
+    font-size: 0.90em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: FFBD38;
+}
+
+.masthead,
+.introduction,
+.location,
+.questions,
+.content-footer {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    background-image: url('http://i.imgur.com/lvXbgcg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6em;
+    font-size: 1em;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    text-align: center;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+.masthead-heading {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-top: -0.2em;
+    margin-bottom: -0.050em;
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    font-weight: 350;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content-footer {
+    margin-top: 5em;
+    padding: 4em 0;
+    background-color: #110f0e;
+}
+
+.content-footer > p {
+    color: cornsilk;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-footer > h4 {
+    color: darkkhaki;
+}
+
+.social {
+    padding: 0;
+    list-style: none;
+}
+
+.social > li {
+    display: inline-block;
+    color: chartreuse;
+    width: 80px;
+    font-size: 1.05em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
